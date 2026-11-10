@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d1726">
+  <meta name="description" content="Daily U.S. state gasoline price tracker">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css">
+  <title>American Gas Tracker · Today</title>
+</head>
+<body><div class="shell"><div id="nav"></div><main id="app">
+  <section class="hero"><div class="hero-copy"><div class="eyebrow">Daily U.S. fuel prices</div><h1>What moved at the pump today?</h1><p class="lede">A transparent history of regular, mid-grade, premium, and diesel averages across all 50 states and Washington, D.C.</p></div><div class="stamp" id="run-stamp"><span class="metric-label">Loading snapshot</span><strong>—</strong></div></section>
+  <div class="grid grid-4" id="metrics"></div>
+  <section><div class="section-head"><div><h2>Source health</h2><p>Every daily attempt is recorded, including failures.</p></div><span class="badge" id="data-day">Loading</span></div><div class="card source-list" id="sources"></div></section>
+  <section><div class="section-head"><div><h2>Biggest moves</h2><p>Ranked by the largest absolute percentage change in any fuel field.</p></div><a href="trends.html">Explore trends →</a></div><div class="card move-list" id="biggest"></div></section>
+  <section><div class="section-head"><div><h2>Latest values</h2><p>Regular-price change is compared with the previous available snapshot.</p></div><a href="browse.html">Browse and shortlist →</a></div><div class="table-card" id="latest-table"></div></section>
+</main><footer>Source: AAA Fuel Prices. Prices are U.S. dollars per gallon. Updated daily by the project pipeline.</footer></div><script src="app.js"></script><script src="today.js"></script></body>
+</html>
+

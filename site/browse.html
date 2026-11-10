@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0d1726"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"><title>American Gas Tracker · Browse</title></head>
+<body><div class="shell"><div id="nav"></div><main id="app">
+  <div class="eyebrow">Browse the latest snapshot</div><h1>Every state, every grade.</h1><p class="lede">Filter the current U.S. state averages, sort any numeric field, and save a shortlist in this browser.</p>
+  <div class="controls"><label class="control">Search states<input id="search" type="search" placeholder="Try Texas"></label><label class="control">Region<select id="region-filter"><option value="">All regions</option></select></label><label class="control">Source<select id="source-filter"><option value="">All sources</option></select></label><label class="control">Sort<select id="sort"></select></label></div>
+  <p class="metric-label" id="count">Loading…</p><div class="table-card" id="browse-table"></div>
+</main><footer>Shortlist stars are stored locally in your browser with localStorage.</footer></div><script src="app.js"></script><script src="browse.js"></script></body>
+</html>
+

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#0d1726"><link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"><title>American Gas Tracker · Trends</title></head>
+<body><div class="shell"><div id="nav"></div><main id="app">
+  <div class="eyebrow">History, computed in your browser</div><h1>What does the history say?</h1><p class="lede">Every number below is calculated from <code>data/history.csv</code> as the history grows. No precomputed trend values are stored in the page.</p>
+  <section><div class="section-head"><div><h2>Compare states over time</h2><p>Choose a fuel field and one or more states.</p></div></div><div class="controls"><label class="control">Fuel field<select id="metric-picker"></select></label><label class="control">States<select id="item-picker" multiple size="5"></select></label></div><div class="card chart-wrap" id="item-chart"></div></section>
+  <section class="finding" id="finding-spread"><h2>Loading finding…</h2><p>Loading…</p><div class="chart-wrap" id="spread-chart"></div></section>
+  <section class="finding" id="finding-markup"><h2>Loading finding…</h2><p>Loading…</p><div class="chart-wrap" id="markup-chart"></div></section>
+  <section class="finding" id="finding-diesel"><h2>Loading finding…</h2><p>Loading…</p><div class="chart-wrap" id="diesel-chart"></div></section>
+  <section class="finding" id="finding-average"><h2>Loading finding…</h2><p>Loading…</p><div class="chart-wrap" id="average-chart"></div></section>
+</main><footer>Trend formulas are documented in README.md and are recomputed from the raw history file in the browser.</footer></div><script src="app.js"></script><script src="trends.js"></script></body>
+</html>
+

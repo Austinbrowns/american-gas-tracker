@@ -1,0 +1,13 @@
+{
+  "name": "American Gas Tracker",
+  "short_name": "Gas Tracker",
+  "description": "Daily U.S. state gasoline price history",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0d1726",
+  "theme_color": "#0d1726",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
+

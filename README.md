@@ -1,6 +1,6 @@
 # American Gas Tracker
 
-[![Tests](https://github.com/OWNER/REPOSITORY/actions/workflows/tests.yml/badge.svg)](https://github.com/OWNER/REPOSITORY/actions/workflows/tests.yml)
+[![Tests](https://github.com/Austinbrowns/american-gas-tracker/actions/workflows/tests.yml/badge.svg)](https://github.com/Austinbrowns/american-gas-tracker/actions/workflows/tests.yml)
 
 American Gas Tracker is a daily data tracker for the Financial Data Analytics Data Tracker Project. It records AAA's average gasoline and diesel prices for all 50 U.S. states and Washington, D.C., rebuilds a reproducible history, opens a daily GitHub Issue, and publishes a browser-based GitHub Pages site.
 

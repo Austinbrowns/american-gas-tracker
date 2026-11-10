@@ -1,52 +1,52 @@
 date,item_id,item,source,region,regular_usd_per_gallon,midgrade_usd_per_gallon,premium_usd_per_gallon,diesel_usd_per_gallon
-2026-11-10,AK,Alaska,aaa_state_prices,West,4.5998,4.7321,4.9847,6.3496
-2026-11-10,AL,Alabama,aaa_state_prices,South,3.6137,4.0703,4.4780,5.7596
-2026-11-10,AR,Arkansas,aaa_state_prices,South,3.6358,4.1228,4.5046,5.7702
-2026-11-10,AZ,Arizona,aaa_state_prices,West,4.2524,4.6015,4.9333,6.2076
-2026-11-10,CA,California,aaa_state_prices,West,5.7437,5.9684,6.1691,8.1445
-2026-11-10,CO,Colorado,aaa_state_prices,West,3.8698,4.2537,4.5778,6.1386
-2026-11-10,CT,Connecticut,aaa_state_prices,Northeast,4.1481,4.8409,5.2266,6.3387
-2026-11-10,DC,District of Columbia,aaa_state_prices,Northeast,4.2843,4.9208,5.3521,6.4290
-2026-11-10,DE,Delaware,aaa_state_prices,Northeast,3.8971,4.4935,4.7797,6.2673
-2026-11-10,FL,Florida,aaa_state_prices,South,3.7925,4.2700,4.6127,5.8863
-2026-11-10,GA,Georgia,aaa_state_prices,South,3.4693,3.9435,4.3864,5.5909
-2026-11-10,HI,Hawaii,aaa_state_prices,West,5.6313,5.9287,6.1581,7.2400
-2026-11-10,IA,Iowa,aaa_state_prices,Midwest,3.8495,4.1790,4.7395,5.8989
-2026-11-10,ID,Idaho,aaa_state_prices,West,4.3274,4.6360,4.9151,6.3562
-2026-11-10,IL,Illinois,aaa_state_prices,Midwest,4.4753,5.0890,5.6512,6.5060
-2026-11-10,IN,Indiana,aaa_state_prices,Midwest,3.6034,4.2063,4.7324,6.6152
-2026-11-10,KS,Kansas,aaa_state_prices,Midwest,3.7286,4.1026,4.4638,5.7920
-2026-11-10,KY,Kentucky,aaa_state_prices,South,3.7458,4.3400,4.7593,6.0319
-2026-11-10,LA,Louisiana,aaa_state_prices,South,3.5759,4.0384,4.4414,5.6547
-2026-11-10,MA,Massachusetts,aaa_state_prices,Northeast,4.0838,4.7540,5.1542,6.2514
-2026-11-10,MD,Maryland,aaa_state_prices,Northeast,3.9159,4.5273,4.8671,6.2702
-2026-11-10,ME,Maine,aaa_state_prices,Northeast,4.1577,4.7432,5.2249,6.3157
-2026-11-10,MI,Michigan,aaa_state_prices,Midwest,4.1420,4.8094,5.4082,6.4999
-2026-11-10,MN,Minnesota,aaa_state_prices,Midwest,3.8910,4.3743,4.9011,6.0306
-2026-11-10,MO,Missouri,aaa_state_prices,Midwest,3.6869,4.0757,4.4362,5.9282
-2026-11-10,MS,Mississippi,aaa_state_prices,South,3.6534,4.1356,4.5274,5.7291
-2026-11-10,MT,Montana,aaa_state_prices,West,4.0496,4.3878,4.7420,6.0604
-2026-11-10,NC,North Carolina,aaa_state_prices,South,3.2584,3.6913,4.1277,5.4204
-2026-11-10,ND,North Dakota,aaa_state_prices,Midwest,3.8486,4.2521,4.7452,5.9115
-2026-11-10,NE,Nebraska,aaa_state_prices,Midwest,4.0015,4.2611,4.7969,5.9380
-2026-11-10,NH,New Hampshire,aaa_state_prices,Northeast,4.0918,4.7066,5.1555,6.2529
-2026-11-10,NJ,New Jersey,aaa_state_prices,Northeast,4.0506,4.6696,4.9795,6.2975
-2026-11-10,NM,New Mexico,aaa_state_prices,West,3.8658,4.2938,4.6157,5.8434
-2026-11-10,NV,Nevada,aaa_state_prices,West,5.0638,5.3630,5.6832,6.7469
-2026-11-10,NY,New York,aaa_state_prices,Northeast,4.2522,4.7979,5.2013,6.4303
-2026-11-10,OH,Ohio,aaa_state_prices,Midwest,3.8047,4.3686,4.9060,6.2919
-2026-11-10,OK,Oklahoma,aaa_state_prices,South,3.5951,4.0129,4.3065,5.6828
-2026-11-10,OR,Oregon,aaa_state_prices,West,4.6481,4.8924,5.1963,6.6083
-2026-11-10,PA,Pennsylvania,aaa_state_prices,Northeast,4.3543,4.7752,5.2217,6.5553
-2026-11-10,RI,Rhode Island,aaa_state_prices,Northeast,4.0039,4.7813,5.1305,6.1765
-2026-11-10,SC,South Carolina,aaa_state_prices,South,3.4999,3.9318,4.3417,5.6337
-2026-11-10,SD,South Dakota,aaa_state_prices,Midwest,3.9237,4.1604,4.7345,5.8508
-2026-11-10,TN,Tennessee,aaa_state_prices,South,3.5962,4.0539,4.4687,5.8245
-2026-11-10,TX,Texas,aaa_state_prices,South,3.4691,3.9568,4.3369,5.5810
-2026-11-10,UT,Utah,aaa_state_prices,West,4.3432,4.6269,4.8854,6.2960
-2026-11-10,VA,Virginia,aaa_state_prices,South,3.8513,4.3289,4.7518,6.1533
-2026-11-10,VT,Vermont,aaa_state_prices,Northeast,4.2598,4.8543,5.2980,6.2844
-2026-11-10,WA,Washington,aaa_state_prices,West,5.0218,5.2727,5.5313,7.1208
-2026-11-10,WI,Wisconsin,aaa_state_prices,Midwest,3.9225,4.5661,5.0924,6.1299
-2026-11-10,WV,West Virginia,aaa_state_prices,South,4.0516,4.4709,4.9320,6.3173
-2026-11-10,WY,Wyoming,aaa_state_prices,West,4.1032,4.4205,4.7210,6.1958
+2026-11-10,AK,Alaska,aaa_state_prices,West,4.5840,4.7228,4.9701,6.3408
+2026-11-10,AL,Alabama,aaa_state_prices,South,3.5940,4.0576,4.4670,5.7600
+2026-11-10,AR,Arkansas,aaa_state_prices,South,3.6119,4.1068,4.4937,5.7553
+2026-11-10,AZ,Arizona,aaa_state_prices,West,4.2302,4.5835,4.9116,6.2065
+2026-11-10,CA,California,aaa_state_prices,West,5.7108,5.9473,6.1428,8.1150
+2026-11-10,CO,Colorado,aaa_state_prices,West,3.8257,4.2063,4.5284,6.1079
+2026-11-10,CT,Connecticut,aaa_state_prices,Northeast,4.1294,4.8095,5.2173,6.3279
+2026-11-10,DC,District of Columbia,aaa_state_prices,Northeast,4.2569,4.8744,5.3285,6.4263
+2026-11-10,DE,Delaware,aaa_state_prices,Northeast,3.8926,4.4862,4.7935,6.2557
+2026-11-10,FL,Florida,aaa_state_prices,South,3.7697,4.2526,4.5953,5.8720
+2026-11-10,GA,Georgia,aaa_state_prices,South,3.4552,3.9417,4.3827,5.5967
+2026-11-10,HI,Hawaii,aaa_state_prices,West,5.6280,5.9337,6.1700,7.2581
+2026-11-10,IA,Iowa,aaa_state_prices,Midwest,3.8241,4.1739,4.7172,5.8577
+2026-11-10,ID,Idaho,aaa_state_prices,West,4.2944,4.6133,4.8830,6.3336
+2026-11-10,IL,Illinois,aaa_state_prices,Midwest,4.4339,5.0481,5.6103,6.4699
+2026-11-10,IN,Indiana,aaa_state_prices,Midwest,3.5700,4.1860,4.7106,6.5875
+2026-11-10,KS,Kansas,aaa_state_prices,Midwest,3.7199,4.1057,4.4571,5.7719
+2026-11-10,KY,Kentucky,aaa_state_prices,South,3.7182,4.3196,4.7543,6.0225
+2026-11-10,LA,Louisiana,aaa_state_prices,South,3.5538,4.0482,4.4429,5.6453
+2026-11-10,MA,Massachusetts,aaa_state_prices,Northeast,4.0658,4.7356,5.1371,6.2354
+2026-11-10,MD,Maryland,aaa_state_prices,Northeast,3.9072,4.5307,4.8712,6.2649
+2026-11-10,ME,Maine,aaa_state_prices,Northeast,4.1350,4.7261,5.2229,6.3027
+2026-11-10,MI,Michigan,aaa_state_prices,Midwest,4.0772,4.7611,5.3531,6.4719
+2026-11-10,MN,Minnesota,aaa_state_prices,Midwest,3.8678,4.3528,4.8815,6.0026
+2026-11-10,MO,Missouri,aaa_state_prices,Midwest,3.6658,4.0512,4.4122,5.9036
+2026-11-10,MS,Mississippi,aaa_state_prices,South,3.6420,4.1301,4.5187,5.7305
+2026-11-10,MT,Montana,aaa_state_prices,West,3.9989,4.2909,4.6612,6.0163
+2026-11-10,NC,North Carolina,aaa_state_prices,South,3.2358,3.6835,4.1216,5.4169
+2026-11-10,ND,North Dakota,aaa_state_prices,Midwest,3.8422,4.2400,4.7390,5.8944
+2026-11-10,NE,Nebraska,aaa_state_prices,Midwest,3.9793,4.2202,4.7478,5.9411
+2026-11-10,NH,New Hampshire,aaa_state_prices,Northeast,4.0707,4.6825,5.1325,6.2401
+2026-11-10,NJ,New Jersey,aaa_state_prices,Northeast,4.0347,4.6674,4.9767,6.2719
+2026-11-10,NM,New Mexico,aaa_state_prices,West,3.8363,4.2628,4.5945,5.8211
+2026-11-10,NV,Nevada,aaa_state_prices,West,5.0412,5.3448,5.6501,6.7385
+2026-11-10,NY,New York,aaa_state_prices,Northeast,4.2312,4.7991,5.2001,6.4236
+2026-11-10,OH,Ohio,aaa_state_prices,Midwest,3.7537,4.3307,4.8674,6.2634
+2026-11-10,OK,Oklahoma,aaa_state_prices,South,3.5751,4.0118,4.3132,5.6618
+2026-11-10,OR,Oregon,aaa_state_prices,West,4.6200,4.8694,5.1752,6.6028
+2026-11-10,PA,Pennsylvania,aaa_state_prices,Northeast,4.3374,4.7676,5.2111,6.5437
+2026-11-10,RI,Rhode Island,aaa_state_prices,Northeast,3.9792,4.7658,5.1275,6.1475
+2026-11-10,SC,South Carolina,aaa_state_prices,South,3.4957,3.9459,4.3418,5.6394
+2026-11-10,SD,South Dakota,aaa_state_prices,Midwest,3.9027,4.1280,4.7294,5.8168
+2026-11-10,TN,Tennessee,aaa_state_prices,South,3.5731,4.0376,4.4490,5.8195
+2026-11-10,TX,Texas,aaa_state_prices,South,3.4498,3.9527,4.3316,5.5660
+2026-11-10,UT,Utah,aaa_state_prices,West,4.3135,4.6089,4.8571,6.2772
+2026-11-10,VA,Virginia,aaa_state_prices,South,3.8315,4.3250,4.7465,6.1346
+2026-11-10,VT,Vermont,aaa_state_prices,Northeast,4.2411,4.8324,5.2827,6.2750
+2026-11-10,WA,Washington,aaa_state_prices,West,4.9834,5.2429,5.5056,7.1273
+2026-11-10,WI,Wisconsin,aaa_state_prices,Midwest,3.8780,4.5325,5.0692,6.0877
+2026-11-10,WV,West Virginia,aaa_state_prices,South,4.0311,4.4566,4.9045,6.3059
+2026-11-10,WY,Wyoming,aaa_state_prices,West,4.1078,4.3841,4.7048,6.1941

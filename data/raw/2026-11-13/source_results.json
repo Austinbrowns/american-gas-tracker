@@ -1,0 +1,12 @@
+{
+  "run_date": "2026-11-13",
+  "sources": [
+    {
+      "name": "aaa_state_prices",
+      "url": "https://gasprices.aaa.com/state-gas-price-averages/",
+      "ok": true,
+      "count": 51,
+      "format": "html"
+    }
+  ]
+}

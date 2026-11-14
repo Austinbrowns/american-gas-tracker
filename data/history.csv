@@ -203,3 +203,54 @@ date,item_id,item,source,region,regular_usd_per_gallon,midgrade_usd_per_gallon,p
 2026-11-13,WI,Wisconsin,aaa_state_prices,Midwest,3.7378,4.3749,4.9352,5.9692
 2026-11-13,WV,West Virginia,aaa_state_prices,South,3.9410,4.3887,4.8270,6.2355
 2026-11-13,WY,Wyoming,aaa_state_prices,West,3.9985,4.2793,4.5850,6.0944
+2026-11-14,AK,Alaska,aaa_state_prices,West,4.4588,4.6282,4.8803,6.2067
+2026-11-14,AL,Alabama,aaa_state_prices,South,3.4939,3.9740,4.3815,5.6883
+2026-11-14,AR,Arkansas,aaa_state_prices,South,3.5032,4.0082,4.4048,5.6399
+2026-11-14,AZ,Arizona,aaa_state_prices,West,4.0810,4.4446,4.7837,6.1089
+2026-11-14,CA,California,aaa_state_prices,West,5.5830,5.8250,6.0170,7.9767
+2026-11-14,CO,Colorado,aaa_state_prices,West,3.6413,4.0176,4.3446,5.9384
+2026-11-14,CT,Connecticut,aaa_state_prices,Northeast,4.0352,4.7100,5.1382,6.2438
+2026-11-14,DC,District of Columbia,aaa_state_prices,Northeast,4.1714,4.8861,5.2178,6.4233
+2026-11-14,DE,Delaware,aaa_state_prices,Northeast,3.7689,4.3467,4.6592,6.0622
+2026-11-14,FL,Florida,aaa_state_prices,South,3.6386,4.1258,4.4630,5.7610
+2026-11-14,GA,Georgia,aaa_state_prices,South,3.3553,3.8635,4.3047,5.5252
+2026-11-14,HI,Hawaii,aaa_state_prices,West,5.6102,5.8730,6.1425,7.2625
+2026-11-14,IA,Iowa,aaa_state_prices,Midwest,3.6793,4.0111,4.5785,5.7016
+2026-11-14,ID,Idaho,aaa_state_prices,West,4.0990,4.4431,4.7163,6.1773
+2026-11-14,IL,Illinois,aaa_state_prices,Midwest,4.2317,4.8739,5.4405,6.3195
+2026-11-14,IN,Indiana,aaa_state_prices,Midwest,3.3773,4.0129,4.5288,6.4153
+2026-11-14,KS,Kansas,aaa_state_prices,Midwest,3.5973,3.9728,4.3434,5.5922
+2026-11-14,KY,Kentucky,aaa_state_prices,South,3.5991,4.1881,4.6326,5.9195
+2026-11-14,LA,Louisiana,aaa_state_prices,South,3.4449,3.9434,4.3496,5.5516
+2026-11-14,MA,Massachusetts,aaa_state_prices,Northeast,3.9709,4.6424,5.0456,6.1555
+2026-11-14,MD,Maryland,aaa_state_prices,Northeast,3.7992,4.4245,4.7373,6.0976
+2026-11-14,ME,Maine,aaa_state_prices,Northeast,4.0364,4.6254,5.1278,6.2316
+2026-11-14,MI,Michigan,aaa_state_prices,Midwest,3.8380,4.5252,5.1346,6.3012
+2026-11-14,MN,Minnesota,aaa_state_prices,Midwest,3.7286,4.2140,4.7397,5.8630
+2026-11-14,MO,Missouri,aaa_state_prices,Midwest,3.5429,3.9472,4.3041,5.7614
+2026-11-14,MS,Mississippi,aaa_state_prices,South,3.5562,4.0425,4.4334,5.6423
+2026-11-14,MT,Montana,aaa_state_prices,West,3.7111,4.0392,4.4209,5.9043
+2026-11-14,NC,North Carolina,aaa_state_prices,South,3.1220,3.5771,4.0202,5.3306
+2026-11-14,ND,North Dakota,aaa_state_prices,Midwest,3.7246,4.1673,4.5937,5.7727
+2026-11-14,NE,Nebraska,aaa_state_prices,Midwest,3.7834,4.0506,4.5494,5.7463
+2026-11-14,NH,New Hampshire,aaa_state_prices,Northeast,3.9771,4.5914,5.0667,6.1554
+2026-11-14,NJ,New Jersey,aaa_state_prices,Northeast,3.9559,4.6021,4.9112,6.1598
+2026-11-14,NM,New Mexico,aaa_state_prices,West,3.6425,4.0633,4.4033,5.7060
+2026-11-14,NV,Nevada,aaa_state_prices,West,4.9196,5.2418,5.5431,6.6897
+2026-11-14,NY,New York,aaa_state_prices,Northeast,4.1524,4.7236,5.1247,6.3676
+2026-11-14,OH,Ohio,aaa_state_prices,Midwest,3.5124,4.1071,4.6542,6.1166
+2026-11-14,OK,Oklahoma,aaa_state_prices,South,3.3900,3.8179,4.1268,5.4777
+2026-11-14,OR,Oregon,aaa_state_prices,West,4.4781,4.7468,5.0432,6.5113
+2026-11-14,PA,Pennsylvania,aaa_state_prices,Northeast,4.2456,4.6861,5.1243,6.4830
+2026-11-14,RI,Rhode Island,aaa_state_prices,Northeast,3.8613,4.6332,5.0275,6.0440
+2026-11-14,SC,South Carolina,aaa_state_prices,South,3.4015,3.8722,4.2655,5.5643
+2026-11-14,SD,South Dakota,aaa_state_prices,Midwest,3.7572,4.0028,4.5331,5.6265
+2026-11-14,TN,Tennessee,aaa_state_prices,South,3.4608,3.9335,4.3508,5.7334
+2026-11-14,TX,Texas,aaa_state_prices,South,3.3180,3.8391,4.2198,5.4528
+2026-11-14,UT,Utah,aaa_state_prices,West,4.1224,4.4240,4.6669,6.1367
+2026-11-14,VA,Virginia,aaa_state_prices,South,3.7314,4.2426,4.6574,6.0503
+2026-11-14,VT,Vermont,aaa_state_prices,Northeast,4.1321,4.7397,5.2125,6.1788
+2026-11-14,WA,Washington,aaa_state_prices,West,4.8458,5.1461,5.3987,7.0361
+2026-11-14,WI,Wisconsin,aaa_state_prices,Midwest,3.6925,4.3447,4.8932,5.9337
+2026-11-14,WV,West Virginia,aaa_state_prices,South,3.9091,4.3429,4.7959,6.2177
+2026-11-14,WY,Wyoming,aaa_state_prices,West,3.9546,4.2511,4.5497,6.0636

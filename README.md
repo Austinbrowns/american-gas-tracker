@@ -65,7 +65,7 @@ python pipeline.py --skip-fetch
 Each run:
 
 1. Downloads the AAA HTML page and saves it as `data/raw/<UTC-date>/aaa_state_prices.html.gz`.
-2. Validates that at least ten states and all four price fields were parsed. A failed or incomplete source writes no raw source file for that date.
+2. Validates that all 51 states/DC rows and all four price fields were parsed. A failed or incomplete source writes no raw source file for that date.
 3. Records every source result, including failures, in `data/raw/<UTC-date>/source_results.json`.
 4. Rebuilds `data/history.csv` from all raw files.
 5. Writes `data/status.json`.
@@ -110,6 +110,7 @@ The tests cover AAA HTML conversion, source validation, deterministic history re
 | `tracker/history.py` | Raw-file-only history builder and CLI. |
 | `tracker/moves.py` | Shared move and appeared/disappeared calculations. |
 | `tracker/issues.py` | Issue body generation and GitHub Issue API integration. |
+| `tracker/health.py` | Verifies each successful scheduled snapshot and preserves recorded source failures. |
 | `tracker/__init__.py` | Python package marker and package description. |
 | `data/history.csv` | Fixed-path historical output. |
 | `data/status.json` | Fixed-path latest-run status output. |

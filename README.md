@@ -95,7 +95,7 @@ python -m pytest
 
 The tests cover AAA HTML conversion, source validation, deterministic history rebuilding, replacement of a same-day raw file, the movement rule, and appeared/disappeared items. `.github/workflows/tests.yml` runs pytest on every push and pull request.
 
-`.github/workflows/daily.yml` runs the pipeline once per day, has `contents: write` and `issues: write` permissions, publishes the daily Issue, and commits the data. `.github/workflows/pages.yml` assembles the site with the two fixed data files and deploys it to GitHub Pages. In the repository settings, choose GitHub Actions as the Pages build source if GitHub has not enabled it automatically.
+`.github/workflows/daily.yml` runs the pipeline once per day, retries transient source failures, verifies that all 51 states were recorded, has `contents: write` and `issues: write` permissions, publishes the daily Issue, and commits the data. A failed or incomplete run fails visibly in GitHub Actions instead of appearing successful. `.github/workflows/pages.yml` assembles the site with the two fixed data files and deploys it to GitHub Pages. In the repository settings, choose GitHub Actions as the Pages build source if GitHub has not enabled it automatically.
 
 ## File guide
 

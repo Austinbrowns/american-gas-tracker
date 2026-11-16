@@ -4,10 +4,11 @@ from __future__ import annotations
 
 from html.parser import HTMLParser
 import re
+import time
 from typing import Any
 from urllib.request import Request, urlopen
 
-from .config import NUMERIC_COLUMNS, SOURCE_URL, STATE_BY_NAME
+from .config import NUMERIC_COLUMNS, SOURCE_URL, STATE_BY_ID, STATE_BY_NAME
 
 
 class _TableParser(HTMLParser):
@@ -89,8 +90,11 @@ def parse_aaa_html(html: bytes | str) -> list[dict[str, Any]]:
     return [unique[item_id] for item_id in sorted(unique)]
 
 
-def fetch_aaa_html(url: str = SOURCE_URL, timeout: int = 30) -> bytes:
-    """Download the public AAA HTML page."""
+def fetch_aaa_html(url: str = SOURCE_URL, timeout: int = 30, attempts: int = 3) -> bytes:
+    """Download the public AAA HTML page, retrying transient failures."""
+
+    if attempts < 1:
+        raise ValueError("attempts must be at least 1")
 
     request = Request(
         url,
@@ -99,18 +103,37 @@ def fetch_aaa_html(url: str = SOURCE_URL, timeout: int = 30) -> bytes:
             "Accept": "text/html,application/xhtml+xml",
         },
     )
-    with urlopen(request, timeout=timeout) as response:
-        body = response.read()
-        if not body:
-            raise ValueError("AAA returned an empty response")
-        return body
+    last_error: Exception | None = None
+    for attempt in range(attempts):
+        try:
+            with urlopen(request, timeout=timeout) as response:
+                body = response.read()
+                if not body:
+                    raise ValueError("AAA returned an empty response")
+                return body
+        except (OSError, ValueError) as exc:
+            last_error = exc
+            if attempt + 1 < attempts:
+                time.sleep(2**attempt)
+
+    assert last_error is not None
+    raise last_error
 
 
 def validate_source_records(records: list[dict[str, Any]]) -> None:
     """Fail closed if the source layout changes or the page is incomplete."""
 
-    if len(records) < 10:
-        raise ValueError(f"AAA returned only {len(records)} recognizable states; refusing to save it")
+    expected_ids = set(STATE_BY_ID)
+    actual_ids = {record.get("item_id") for record in records}
+    if actual_ids != expected_ids:
+        missing = ", ".join(sorted(expected_ids - actual_ids))
+        unexpected = ", ".join(sorted(actual_ids - expected_ids))
+        details = f"; missing: {missing}" if missing else ""
+        if unexpected:
+            details += f"; unexpected: {unexpected}"
+        raise ValueError(
+            f"AAA returned only {len(records)} recognizable states; expected {len(expected_ids)}{details}"
+        )
     for record in records:
         missing = [column for column in NUMERIC_COLUMNS if record.get(column) is None]
         if missing:

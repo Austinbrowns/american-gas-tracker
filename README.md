@@ -101,6 +101,7 @@ The tests cover AAA HTML conversion, source validation, deterministic history re
 
 | File | Purpose |
 |---|---|
+| `README.md` | Project overview, data definitions, operating instructions, and submission checklist. |
 | `.github/workflows/tests.yml` | Runs pytest on pushes and pull requests. |
 | `.github/workflows/daily.yml` | Daily fetch, Issue, data commit, and manual dispatch workflow. |
 | `.github/workflows/pages.yml` | Builds and deploys the installable Pages site. |
@@ -115,6 +116,7 @@ The tests cover AAA HTML conversion, source validation, deterministic history re
 | `data/history.csv` | Fixed-path historical output. |
 | `data/status.json` | Fixed-path latest-run status output. |
 | `data/raw/` | Compressed daily source snapshots and source result records. |
+| `data/raw/.gitkeep` | Keeps the raw-data directory in the repository before the first snapshot. |
 | `data/issue.md` | Generated body of the latest daily Issue. |
 | `site/index.html` | Today page. |
 | `site/browse.html` | Browse/filter/shortlist page. |

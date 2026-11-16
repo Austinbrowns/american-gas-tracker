@@ -1,4 +1,4 @@
-## American Gas Price Report — 2026-11-15
+## American Gas Price Report — 2026-11-16
 
 Movement is ranked by the largest absolute percentage change among regular, mid-grade, premium, and diesel prices for each state.
 
@@ -8,16 +8,16 @@ Movement is ranked by the largest absolute percentage change among regular, mid-
 ### Biggest moves
 | State | Field | Old | New | Difference | Score |
 |---|---|---:|---:|---:|---:|
-| Montana | midgrade_usd_per_gallon | $4.0392 | $3.9767 | -0.0625 | 1.55% |
-| Ohio | midgrade_usd_per_gallon | $4.1071 | $4.0560 | -0.0511 | 1.24% |
-| Vermont | premium_usd_per_gallon | $5.2125 | $5.1610 | -0.0515 | 0.99% |
-| South Dakota | midgrade_usd_per_gallon | $4.0028 | $3.9643 | -0.0385 | 0.96% |
-| Wisconsin | midgrade_usd_per_gallon | $4.3447 | $4.3033 | -0.0414 | 0.95% |
-| Nebraska | regular_usd_per_gallon | $3.7834 | $3.7487 | -0.0347 | 0.92% |
-| Idaho | premium_usd_per_gallon | $4.7163 | $4.6735 | -0.0428 | 0.91% |
-| Illinois | premium_usd_per_gallon | $5.4405 | $5.3915 | -0.0490 | 0.90% |
-| New Mexico | premium_usd_per_gallon | $4.4033 | $4.3638 | -0.0395 | 0.90% |
-| North Dakota | premium_usd_per_gallon | $4.5937 | $4.5534 | -0.0403 | 0.88% |
+| Oklahoma | premium_usd_per_gallon | $4.1025 | $4.0386 | -0.0639 | 1.56% |
+| Iowa | midgrade_usd_per_gallon | $3.9927 | $3.9356 | -0.0571 | 1.43% |
+| Montana | premium_usd_per_gallon | $4.3556 | $4.2943 | -0.0613 | 1.41% |
+| Wisconsin | midgrade_usd_per_gallon | $4.3033 | $4.2452 | -0.0581 | 1.35% |
+| South Carolina | midgrade_usd_per_gallon | $3.8404 | $3.7888 | -0.0516 | 1.34% |
+| Michigan | midgrade_usd_per_gallon | $4.4862 | $4.4297 | -0.0565 | 1.26% |
+| South Dakota | regular_usd_per_gallon | $3.7259 | $3.6797 | -0.0462 | 1.24% |
+| Ohio | midgrade_usd_per_gallon | $4.0560 | $4.0058 | -0.0502 | 1.24% |
+| Indiana | midgrade_usd_per_gallon | $3.9816 | $3.9349 | -0.0467 | 1.17% |
+| District of Columbia | diesel_usd_per_gallon | $6.4383 | $6.3630 | -0.0753 | 1.17% |
 
 ### Appeared or disappeared
 - Appeared: None

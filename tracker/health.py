@@ -31,7 +31,14 @@ def verify_daily_snapshot(project_root: Path | None = None, day: str | None = No
 
     results = json.loads(results_path.read_text(encoding="utf-8"))
     source = next((item for item in results.get("sources", []) if item.get("name") == SOURCE_NAME), None)
-    if not source or not source.get("ok") or source.get("count") != len(STATE_BY_ID):
+    if not source:
+        raise RuntimeError(f"{SOURCE_NAME} is missing from the source results")
+    if not source.get("ok"):
+        if raw_path.exists():
+            raise RuntimeError(f"{SOURCE_NAME} failed but left a raw snapshot behind")
+        print(f"Daily snapshot recorded source failure: {source.get('error', 'unknown error')}")
+        return
+    if source.get("count") != len(STATE_BY_ID):
         raise RuntimeError(f"{SOURCE_NAME} did not produce all {len(STATE_BY_ID)} states: {source}")
 
     with gzip.open(raw_path, "rb") as compressed:

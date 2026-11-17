@@ -1,4 +1,4 @@
-## American Gas Price Report — 2026-11-16
+## American Gas Price Report — 2026-11-17
 
 Movement is ranked by the largest absolute percentage change among regular, mid-grade, premium, and diesel prices for each state.
 
@@ -8,16 +8,16 @@ Movement is ranked by the largest absolute percentage change among regular, mid-
 ### Biggest moves
 | State | Field | Old | New | Difference | Score |
 |---|---|---:|---:|---:|---:|
-| Oklahoma | premium_usd_per_gallon | $4.1025 | $4.0386 | -0.0639 | 1.56% |
-| Iowa | midgrade_usd_per_gallon | $3.9927 | $3.9356 | -0.0571 | 1.43% |
-| Montana | premium_usd_per_gallon | $4.3556 | $4.2943 | -0.0613 | 1.41% |
-| Wisconsin | midgrade_usd_per_gallon | $4.3033 | $4.2452 | -0.0581 | 1.35% |
-| South Carolina | midgrade_usd_per_gallon | $3.8404 | $3.7888 | -0.0516 | 1.34% |
-| Michigan | midgrade_usd_per_gallon | $4.4862 | $4.4297 | -0.0565 | 1.26% |
-| South Dakota | regular_usd_per_gallon | $3.7259 | $3.6797 | -0.0462 | 1.24% |
-| Ohio | midgrade_usd_per_gallon | $4.0560 | $4.0058 | -0.0502 | 1.24% |
-| Indiana | midgrade_usd_per_gallon | $3.9816 | $3.9349 | -0.0467 | 1.17% |
-| District of Columbia | diesel_usd_per_gallon | $6.4383 | $6.3630 | -0.0753 | 1.17% |
+| Colorado | midgrade_usd_per_gallon | $3.9716 | $4.0463 | +0.0747 | 1.88% |
+| North Dakota | midgrade_usd_per_gallon | $4.1503 | $4.0757 | -0.0746 | 1.80% |
+| Ohio | regular_usd_per_gallon | $3.4457 | $3.3845 | -0.0612 | 1.78% |
+| South Dakota | premium_usd_per_gallon | $4.5311 | $4.4686 | -0.0625 | 1.38% |
+| Indiana | regular_usd_per_gallon | $3.3191 | $3.2747 | -0.0444 | 1.34% |
+| Illinois | regular_usd_per_gallon | $4.1749 | $4.1193 | -0.0556 | 1.33% |
+| District of Columbia | premium_usd_per_gallon | $5.2190 | $5.1538 | -0.0652 | 1.25% |
+| Wisconsin | regular_usd_per_gallon | $3.6313 | $3.5883 | -0.0430 | 1.18% |
+| Michigan | regular_usd_per_gallon | $3.7875 | $3.7459 | -0.0416 | 1.10% |
+| Alaska | midgrade_usd_per_gallon | $4.6396 | $4.5912 | -0.0484 | 1.04% |
 
 ### Appeared or disappeared
 - Appeared: None

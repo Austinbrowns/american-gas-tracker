@@ -1,4 +1,4 @@
-## American Gas Price Report — 2026-11-17
+## American Gas Price Report — 2026-11-18
 
 Movement is ranked by the largest absolute percentage change among regular, mid-grade, premium, and diesel prices for each state.
 
@@ -8,16 +8,16 @@ Movement is ranked by the largest absolute percentage change among regular, mid-
 ### Biggest moves
 | State | Field | Old | New | Difference | Score |
 |---|---|---:|---:|---:|---:|
-| Colorado | midgrade_usd_per_gallon | $3.9716 | $4.0463 | +0.0747 | 1.88% |
-| North Dakota | midgrade_usd_per_gallon | $4.1503 | $4.0757 | -0.0746 | 1.80% |
-| Ohio | regular_usd_per_gallon | $3.4457 | $3.3845 | -0.0612 | 1.78% |
-| South Dakota | premium_usd_per_gallon | $4.5311 | $4.4686 | -0.0625 | 1.38% |
-| Indiana | regular_usd_per_gallon | $3.3191 | $3.2747 | -0.0444 | 1.34% |
-| Illinois | regular_usd_per_gallon | $4.1749 | $4.1193 | -0.0556 | 1.33% |
-| District of Columbia | premium_usd_per_gallon | $5.2190 | $5.1538 | -0.0652 | 1.25% |
-| Wisconsin | regular_usd_per_gallon | $3.6313 | $3.5883 | -0.0430 | 1.18% |
-| Michigan | regular_usd_per_gallon | $3.7875 | $3.7459 | -0.0416 | 1.10% |
-| Alaska | midgrade_usd_per_gallon | $4.6396 | $4.5912 | -0.0484 | 1.04% |
+| Colorado | regular_usd_per_gallon | $3.6605 | $3.5859 | -0.0746 | 2.04% |
+| Ohio | regular_usd_per_gallon | $3.3845 | $3.3197 | -0.0648 | 1.91% |
+| Indiana | regular_usd_per_gallon | $3.2747 | $3.2240 | -0.0507 | 1.55% |
+| North Dakota | premium_usd_per_gallon | $4.5423 | $4.4765 | -0.0658 | 1.45% |
+| Alaska | midgrade_usd_per_gallon | $4.5912 | $4.5335 | -0.0577 | 1.26% |
+| Illinois | regular_usd_per_gallon | $4.1193 | $4.0695 | -0.0498 | 1.21% |
+| Wisconsin | regular_usd_per_gallon | $3.5883 | $3.5476 | -0.0407 | 1.13% |
+| Minnesota | regular_usd_per_gallon | $3.6520 | $3.6111 | -0.0409 | 1.12% |
+| Michigan | regular_usd_per_gallon | $3.7459 | $3.7040 | -0.0419 | 1.12% |
+| Oklahoma | regular_usd_per_gallon | $3.3113 | $3.2749 | -0.0364 | 1.10% |
 
 ### Appeared or disappeared
 - Appeared: None

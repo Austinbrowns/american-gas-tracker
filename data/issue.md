@@ -1,4 +1,4 @@
-## American Gas Price Report — 2026-11-20
+## American Gas Price Report — 2026-11-21
 
 Movement is ranked by the largest absolute percentage change among regular, mid-grade, premium, and diesel prices for each state.
 
@@ -8,16 +8,16 @@ Movement is ranked by the largest absolute percentage change among regular, mid-
 ### Biggest moves
 | State | Field | Old | New | Difference | Score |
 |---|---|---:|---:|---:|---:|
-| Ohio | regular_usd_per_gallon | $3.2534 | $3.1903 | -0.0631 | 1.94% |
-| South Dakota | midgrade_usd_per_gallon | $3.8883 | $3.8285 | -0.0598 | 1.54% |
-| Indiana | regular_usd_per_gallon | $3.1680 | $3.1197 | -0.0483 | 1.52% |
-| Iowa | midgrade_usd_per_gallon | $3.8673 | $3.8099 | -0.0574 | 1.48% |
-| Texas | regular_usd_per_gallon | $3.2045 | $3.1587 | -0.0458 | 1.43% |
-| Oklahoma | regular_usd_per_gallon | $3.2410 | $3.1951 | -0.0459 | 1.42% |
-| Nebraska | regular_usd_per_gallon | $3.6609 | $3.6095 | -0.0514 | 1.40% |
-| Wyoming | premium_usd_per_gallon | $4.4376 | $4.3853 | -0.0523 | 1.18% |
-| Illinois | regular_usd_per_gallon | $4.0191 | $3.9728 | -0.0463 | 1.15% |
-| Wisconsin | regular_usd_per_gallon | $3.4992 | $3.4599 | -0.0393 | 1.12% |
+| District of Columbia | midgrade_usd_per_gallon | $4.8572 | $4.7190 | -0.1382 | 2.85% |
+| South Dakota | premium_usd_per_gallon | $4.3996 | $4.3195 | -0.0801 | 1.82% |
+| Ohio | regular_usd_per_gallon | $3.1903 | $3.1327 | -0.0576 | 1.81% |
+| Indiana | midgrade_usd_per_gallon | $3.7623 | $3.7017 | -0.0606 | 1.61% |
+| Oklahoma | regular_usd_per_gallon | $3.1951 | $3.1455 | -0.0496 | 1.55% |
+| Iowa | regular_usd_per_gallon | $3.5093 | $3.4609 | -0.0484 | 1.38% |
+| Utah | midgrade_usd_per_gallon | $4.2231 | $4.1654 | -0.0577 | 1.37% |
+| Kentucky | regular_usd_per_gallon | $3.4280 | $3.3815 | -0.0465 | 1.36% |
+| North Dakota | premium_usd_per_gallon | $4.3940 | $4.3349 | -0.0591 | 1.35% |
+| Colorado | regular_usd_per_gallon | $3.4941 | $3.4476 | -0.0465 | 1.33% |
 
 ### Appeared or disappeared
 - Appeared: None
